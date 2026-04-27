@@ -1,0 +1,18 @@
+{
+  "name": "mcommerce-mock-server",
+  "version": "1.0.0",
+  "description": "Local mock API server for MCommerce development — no external API keys required",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "json-server": "^0.17.4",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

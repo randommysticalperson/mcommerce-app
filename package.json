@@ -7,7 +7,10 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "mock:server": "cd mock && npm install --silent && node server/server.js",
+    "mock:start": "bash scripts/start-mock.sh",
+    "mock:install": "cd mock && npm install"
   },
   "dependencies": {
     "@react-navigation/bottom-tabs": "^6.5.11",

@@ -1,0 +1,313 @@
+{
+  "users": [
+    {
+      "id": "user_001",
+      "name": "Michael Onyango",
+      "email": "michael@terrasept.com",
+      "password": "password123",
+      "phone": "0712345678",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Michael",
+      "address": {
+        "street": "Westlands Road",
+        "city": "Nairobi",
+        "county": "Nairobi County",
+        "country": "Kenya"
+      },
+      "createdAt": "2026-01-15T08:00:00Z"
+    },
+    {
+      "id": "user_002",
+      "name": "Amina Wanjiku",
+      "email": "amina@example.com",
+      "password": "password123",
+      "phone": "0722987654",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Amina",
+      "address": {
+        "street": "Mombasa Road",
+        "city": "Nairobi",
+        "county": "Nairobi County",
+        "country": "Kenya"
+      },
+      "createdAt": "2026-02-01T10:30:00Z"
+    }
+  ],
+  "categories": [
+    { "id": "cat_001", "name": "Electronics", "icon": "📱", "slug": "electronics", "productCount": 12 },
+    { "id": "cat_002", "name": "Fashion", "icon": "👗", "slug": "fashion", "productCount": 24 },
+    { "id": "cat_003", "name": "Home & Kitchen", "icon": "🏠", "slug": "home-kitchen", "productCount": 18 },
+    { "id": "cat_004", "name": "Groceries", "icon": "🛒", "slug": "groceries", "productCount": 45 },
+    { "id": "cat_005", "name": "Beauty", "icon": "💄", "slug": "beauty", "productCount": 16 },
+    { "id": "cat_006", "name": "Sports", "icon": "⚽", "slug": "sports", "productCount": 9 }
+  ],
+  "products": [
+    {
+      "id": "prod_001",
+      "name": "Samsung Galaxy A54 5G",
+      "description": "6.4-inch Super AMOLED display, 50MP camera, 5000mAh battery. Perfect for Nairobi's fast-paced lifestyle.",
+      "price": 42999,
+      "originalPrice": 49999,
+      "currency": "KES",
+      "categoryId": "cat_001",
+      "category": "Electronics",
+      "images": [
+        "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400",
+        "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=400"
+      ],
+      "rating": 4.5,
+      "reviewCount": 128,
+      "inStock": true,
+      "stockCount": 15,
+      "vendor": "TechHub Kenya",
+      "vendorId": "vendor_001",
+      "tags": ["smartphone", "5G", "Samsung"],
+      "featured": true
+    },
+    {
+      "id": "prod_002",
+      "name": "Infinix Hot 40 Pro",
+      "description": "6.78-inch display, 108MP camera, 5000mAh battery. Made for Africa, priced for Kenya.",
+      "price": 18999,
+      "originalPrice": 21999,
+      "currency": "KES",
+      "categoryId": "cat_001",
+      "category": "Electronics",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400"
+      ],
+      "rating": 4.2,
+      "reviewCount": 89,
+      "inStock": true,
+      "stockCount": 32,
+      "vendor": "TechHub Kenya",
+      "vendorId": "vendor_001",
+      "tags": ["smartphone", "Infinix", "budget"],
+      "featured": true
+    },
+    {
+      "id": "prod_003",
+      "name": "Wireless Earbuds Pro",
+      "description": "Active noise cancellation, 30hr battery life, IPX5 water resistant. Ideal for Nairobi commuters.",
+      "price": 5499,
+      "originalPrice": 7999,
+      "currency": "KES",
+      "categoryId": "cat_001",
+      "category": "Electronics",
+      "images": [
+        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400"
+      ],
+      "rating": 4.3,
+      "reviewCount": 214,
+      "inStock": true,
+      "stockCount": 50,
+      "vendor": "TechHub Kenya",
+      "vendorId": "vendor_001",
+      "tags": ["earbuds", "wireless", "audio"],
+      "featured": false
+    },
+    {
+      "id": "prod_004",
+      "name": "Ankara Print Maxi Dress",
+      "description": "Authentic Ankara fabric, handcrafted in Nairobi. Available in sizes S-XXL.",
+      "price": 3200,
+      "originalPrice": 3200,
+      "currency": "KES",
+      "categoryId": "cat_002",
+      "category": "Fashion",
+      "images": [
+        "https://images.unsplash.com/photo-1594938298603-c8148c4b4571?w=400"
+      ],
+      "rating": 4.8,
+      "reviewCount": 67,
+      "inStock": true,
+      "stockCount": 20,
+      "vendor": "Nairobi Threads",
+      "vendorId": "vendor_002",
+      "tags": ["dress", "Ankara", "fashion"],
+      "featured": true
+    },
+    {
+      "id": "prod_005",
+      "name": "Leather Sandals — Handmade",
+      "description": "Genuine leather sandals handcrafted by Maasai artisans in Kajiado. Durable and stylish.",
+      "price": 1800,
+      "originalPrice": 2500,
+      "currency": "KES",
+      "categoryId": "cat_002",
+      "category": "Fashion",
+      "images": [
+        "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=400"
+      ],
+      "rating": 4.6,
+      "reviewCount": 43,
+      "inStock": true,
+      "stockCount": 35,
+      "vendor": "Nairobi Threads",
+      "vendorId": "vendor_002",
+      "tags": ["sandals", "leather", "handmade"],
+      "featured": false
+    },
+    {
+      "id": "prod_006",
+      "name": "Jiko Ceramic Cooking Pot",
+      "description": "Traditional Kenyan ceramic pot, perfect for githeri, ugali, and stews. 5-litre capacity.",
+      "price": 1200,
+      "originalPrice": 1200,
+      "currency": "KES",
+      "categoryId": "cat_003",
+      "category": "Home & Kitchen",
+      "images": [
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400"
+      ],
+      "rating": 4.7,
+      "reviewCount": 156,
+      "inStock": true,
+      "stockCount": 80,
+      "vendor": "Kenya Home Store",
+      "vendorId": "vendor_003",
+      "tags": ["cookware", "ceramic", "kitchen"],
+      "featured": false
+    },
+    {
+      "id": "prod_007",
+      "name": "Unga Jogoo Maize Flour 2kg",
+      "description": "Premium white maize flour, finely milled for smooth ugali. A Kenyan kitchen staple.",
+      "price": 185,
+      "originalPrice": 185,
+      "currency": "KES",
+      "categoryId": "cat_004",
+      "category": "Groceries",
+      "images": [
+        "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=400"
+      ],
+      "rating": 4.9,
+      "reviewCount": 512,
+      "inStock": true,
+      "stockCount": 200,
+      "vendor": "Nairobi Fresh Mart",
+      "vendorId": "vendor_004",
+      "tags": ["flour", "ugali", "groceries"],
+      "featured": false
+    },
+    {
+      "id": "prod_008",
+      "name": "Kenyan AA Coffee Beans 500g",
+      "description": "Single-origin Kenyan AA grade coffee from Nyeri highlands. Rich, full-bodied flavour.",
+      "price": 950,
+      "originalPrice": 1100,
+      "currency": "KES",
+      "categoryId": "cat_004",
+      "category": "Groceries",
+      "images": [
+        "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=400"
+      ],
+      "rating": 4.9,
+      "reviewCount": 289,
+      "inStock": true,
+      "stockCount": 75,
+      "vendor": "Nairobi Fresh Mart",
+      "vendorId": "vendor_004",
+      "tags": ["coffee", "Kenyan AA", "Nyeri"],
+      "featured": true
+    },
+    {
+      "id": "prod_009",
+      "name": "Shea Butter Body Lotion",
+      "description": "100% natural shea butter sourced from West Africa. Deeply moisturising for all skin types.",
+      "price": 650,
+      "originalPrice": 850,
+      "currency": "KES",
+      "categoryId": "cat_005",
+      "category": "Beauty",
+      "images": [
+        "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=400"
+      ],
+      "rating": 4.4,
+      "reviewCount": 178,
+      "inStock": true,
+      "stockCount": 60,
+      "vendor": "Glow Africa",
+      "vendorId": "vendor_005",
+      "tags": ["lotion", "shea butter", "beauty"],
+      "featured": false
+    },
+    {
+      "id": "prod_010",
+      "name": "Football — Adidas Tango",
+      "description": "FIFA-approved match ball. Durable synthetic leather, suitable for all surfaces.",
+      "price": 3500,
+      "originalPrice": 4200,
+      "currency": "KES",
+      "categoryId": "cat_006",
+      "category": "Sports",
+      "images": [
+        "https://images.unsplash.com/photo-1575361204480-aadea25e6e68?w=400"
+      ],
+      "rating": 4.5,
+      "reviewCount": 94,
+      "inStock": true,
+      "stockCount": 25,
+      "vendor": "Sports Kenya",
+      "vendorId": "vendor_006",
+      "tags": ["football", "soccer", "sports"],
+      "featured": false
+    }
+  ],
+  "orders": [
+    {
+      "id": "order_001",
+      "userId": "user_001",
+      "items": [
+        { "productId": "prod_001", "name": "Samsung Galaxy A54 5G", "price": 42999, "quantity": 1, "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400" },
+        { "productId": "prod_003", "name": "Wireless Earbuds Pro", "price": 5499, "quantity": 1, "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400" }
+      ],
+      "subtotal": 48498,
+      "vat": 7759.68,
+      "vatRate": 0.16,
+      "deliveryFee": 250,
+      "total": 56507.68,
+      "currency": "KES",
+      "status": "delivered",
+      "paymentMethod": "mpesa",
+      "mpesaRef": "QHX7Y2MOCK",
+      "deliveryAddress": {
+        "street": "Westlands Road",
+        "city": "Nairobi",
+        "county": "Nairobi County"
+      },
+      "createdAt": "2026-04-10T09:15:00Z",
+      "deliveredAt": "2026-04-12T14:30:00Z"
+    },
+    {
+      "id": "order_002",
+      "userId": "user_001",
+      "items": [
+        { "productId": "prod_008", "name": "Kenyan AA Coffee Beans 500g", "price": 950, "quantity": 2, "image": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=400" },
+        { "productId": "prod_007", "name": "Unga Jogoo Maize Flour 2kg", "price": 185, "quantity": 3, "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=400" }
+      ],
+      "subtotal": 2455,
+      "vat": 392.80,
+      "vatRate": 0.16,
+      "deliveryFee": 150,
+      "total": 2997.80,
+      "currency": "KES",
+      "status": "processing",
+      "paymentMethod": "mpesa",
+      "mpesaRef": "QKM9P3MOCK",
+      "deliveryAddress": {
+        "street": "Westlands Road",
+        "city": "Nairobi",
+        "county": "Nairobi County"
+      },
+      "createdAt": "2026-04-26T16:45:00Z",
+      "deliveredAt": null
+    }
+  ],
+  "vendors": [
+    { "id": "vendor_001", "name": "TechHub Kenya", "rating": 4.6, "location": "Nairobi CBD", "verified": true },
+    { "id": "vendor_002", "name": "Nairobi Threads", "rating": 4.8, "location": "Westlands", "verified": true },
+    { "id": "vendor_003", "name": "Kenya Home Store", "rating": 4.5, "location": "Ngong Road", "verified": true },
+    { "id": "vendor_004", "name": "Nairobi Fresh Mart", "rating": 4.9, "location": "Kilimani", "verified": true },
+    { "id": "vendor_005", "name": "Glow Africa", "rating": 4.4, "location": "Karen", "verified": false },
+    { "id": "vendor_006", "name": "Sports Kenya", "rating": 4.3, "location": "Industrial Area", "verified": true }
+  ]
+}
